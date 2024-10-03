@@ -67,7 +67,7 @@ const Hero = () => {
 
         {/* MIDDLE COLUMN */}
         <div className="flex-[0.5] flex justify-center items-end">
-          <div className=" w-8/12 h-fit  text-center text-4xl font-medium text-white [word-spacing:5px]">
+          <div className=" w-8/12 h-[350px] overflow-hidden text-center text-4xl font-medium text-white [word-spacing:5px]">
             <h2>WELCOME TO OUR FAMILY</h2>
             <h2>
               INFO@<span className="text-[#0cffaa]">ZBOOMA</span>.COM

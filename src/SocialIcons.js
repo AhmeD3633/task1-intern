@@ -1,21 +1,19 @@
 import React from "react";
-import {
-  FaSkype,
-  FaTwitter,
-  FaWhatsapp,
-  FaFacebook,
-  FaSnapchat,
-} from "react-icons/fa";
-import { FiInstagram } from "react-icons/fi";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 
 const SocialIcons = () => {
   const icons = [
-    FaSkype,
-    FaTwitter,
-    FaWhatsapp,
-    FaFacebook,
-    FiInstagram,
-    FaSnapchat,
+    LinkedInIcon,
+    TwitterIcon,
+    WhatsAppIcon,
+    FacebookIcon,
+    InstagramIcon,
+    YouTubeIcon,
   ];
   return (
     <div className="w-fit h-fit  text-[#0cffaa] ">
@@ -23,10 +21,10 @@ const SocialIcons = () => {
         {icons.map((Icon, index) => (
           <li
             key={index}
-            className="bg-[#002321] text-4xl w-[60px] h-[60px] justify-center items-center flex rounded-full"
+            className="bg-[#002321]  w-[60px] h-[60px] justify-center items-center flex rounded-full"
           >
-            <a href="#">
-              <Icon />
+            <a href="#"> 
+              <Icon fontSize="large"/>
             </a>
           </li>
         ))}
